@@ -59,7 +59,7 @@ class Home extends Component {
       <Container>
         <Row>
 
-          <Col size="md-12">
+          <div className="card">
             <Card title="Book Search" icon="far fa-book">
               <Form
                 handleInputChange={this.handleInputChange}
@@ -67,7 +67,8 @@ class Home extends Component {
                 q={this.state.q}
               />
             </Card>
-          </Col>
+          </div>
+
         </Row>
         <Row>
           <Col size="md-12">
@@ -95,7 +96,7 @@ class Home extends Component {
                   ))}
                 </List>
               ) : (
-                <h2 className="text-center">{this.state.message}</h2>
+                <h5 className="text-center">{this.state.message}</h5>
               )}
             </Card>
           </Col>

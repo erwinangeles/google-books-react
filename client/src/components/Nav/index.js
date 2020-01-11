@@ -37,15 +37,15 @@ class Nav extends Component {
         <a href="/">              <button
                 className="btn btn-primary"
               >
-                Search
+                Search Books
               </button></a>
               <a href="/saved">              <button
                 className="btn btn-primary"
               >
-                Saved
+                View Saved
               </button></a>
 
-              <div className="right">        <Link className="navbar-brand" to="/">
+              <div className="right">        <Link className="navbar-brand hide-on-small-only" to="/">
           Google Books
         </Link></div>
       </nav>
