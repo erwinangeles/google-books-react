@@ -1,0 +1,13 @@
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand{
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn {
+  margin-left: 10px;
+}
